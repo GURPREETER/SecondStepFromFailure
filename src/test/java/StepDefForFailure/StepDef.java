@@ -20,6 +20,7 @@ public class StepDef {
         fb.manage().window().maximize();
         fb.get("https://www.linkedin.com");
         System.out.println("Hello world Here it is running !!!");
+        System.out.println("Here is the current url"+fb.getCurrentUrl());
 
     }
 
